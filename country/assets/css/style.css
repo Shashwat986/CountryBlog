@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic,900);
-@import url(http://fonts.googleapis.com/css?family=Damion);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic,900);
+@import url(https://fonts.googleapis.com/css?family=Damion);
 @import "../plugins/owl/owl.carousel.css";
 @import "../plugins/owl/owl.theme.css";
 @import "../plugins/owl/owl.transitions.css";
@@ -5705,7 +5705,7 @@ img.mfp-img {
   left: 0;
   width: 100%;
   height: 19px;
-  background-image: url(http://houses.html.themeplayers.net/country/assets/images/slash-line-big.png);
+  /*background-image: url(http://houses.html.themeplayers.net/country/assets/images/slash-line-big.png);*/
 }
 .input-group {
   width: 100%;
@@ -6960,7 +6960,7 @@ ul.ct-socials.ct-socials--small > li > a {
   left: 0;
   width: 100%;
   height: 19px;
-  background-image: url(http://houses.html.themeplayers.net/country/assets/css/images/slash-line-big.png);
+  /*background-image: url(http://houses.html.themeplayers.net/country/assets/css/images/slash-line-big.png);*/
 }
 .owl-carousel.owl-carousel--arrowsOutside .owl-controls .owl-buttons .owl-next {
   right: -90px;
