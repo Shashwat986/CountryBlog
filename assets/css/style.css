@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic,900);
-@import url(https://fonts.googleapis.com/css?family=Damion);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic,900);
+@import url(http://fonts.googleapis.com/css?family=Damion);
 @import "../plugins/owl/owl.carousel.css";
 @import "../plugins/owl/owl.theme.css";
 @import "../plugins/owl/owl.transitions.css";
@@ -16,7 +16,7 @@
 @font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fonts/fontawesome-webfont.eot?v=4.5.0');
-  src: url('../fonts/fonts/fontawesome-webfont.eot?') format('embedded-opentype'), url('../fonts/fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fonts/fontawesome-webfont.svg?v=4.5.0') format('svg');
+  src: url('../fonts/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -5705,7 +5705,7 @@ img.mfp-img {
   left: 0;
   width: 100%;
   height: 19px;
-  /*background-image: url(http://houses.html.themeplayers.net/country/assets/images/slash-line-big.png);*/
+  background-image: url(../images/slash-line-big.png);
 }
 .input-group {
   width: 100%;
@@ -6385,7 +6385,7 @@ nav.navbar ul.nav.navbar-nav > li:not(:first-child):after {
   left: 0;
   top: 50%;
   margin-top: -18px;
-  background: url("../images/demo-content/country-menu-separator.png") no-repeat;
+  background: url("../images/content/country-menu-separator.png") no-repeat;
 }
 nav.navbar ul.nav.navbar-nav > li.dropdown > a {
   position: relative;
@@ -6620,7 +6620,6 @@ nav.navbar ul.nav.navbar-nav a {
   margin-top: 50px;
   margin-bottom: 70px;
   display: inline-block;
-  position: relative;
 }
 .ct-white-logo {
   display: inline-block;
@@ -6960,7 +6959,7 @@ ul.ct-socials.ct-socials--small > li > a {
   left: 0;
   width: 100%;
   height: 19px;
-  /*background-image: url(http://houses.html.themeplayers.net/country/assets/css/images/slash-line-big.png);*/
+  background-image: url(images/slash-line-big.png);
 }
 .owl-carousel.owl-carousel--arrowsOutside .owl-controls .owl-buttons .owl-next {
   right: -90px;
@@ -7488,7 +7487,6 @@ nav.navbar ul.nav.navbar-nav > li > span:after {
   }
 }
 .ct-googleMap:before {
-  background-color: #1a1a1a;
 }
 .ct-googleMap .ct-googleMaps-infoBox .media-heading {
   color: #1a1a1a;
@@ -8104,7 +8102,6 @@ ul.ct-stars > li.empty i {
   padding: 0;
   height: 600px;
   position: relative;
-  top: -55px;
 }
 .ct-board .ct-board-content .ct-wallBox {
   height: 100%;
@@ -8208,7 +8205,6 @@ ul.ct-stars > li.empty i {
   }
 }
 .ct-googleMap {
-  top: -55px;
   position: relative;
 }
 .ct-googleMap img {
@@ -8281,7 +8277,6 @@ ul.ct-stars > li.empty i {
 }
 footer {
   background-color: #28282e;
-  margin-top: -55px;
   color: #595971;
 }
 footer hr {
@@ -9147,7 +9142,6 @@ footer hr {
   margin-top: 0;
 }
 .onepager .ct-contactBox {
-  margin-top: -55px;
 }
 .ct-u-borderAll {
   border: 1px solid #dddddd;

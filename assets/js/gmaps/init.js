@@ -27,11 +27,7 @@
                 if (validatedata(location)) {
                     $this.gmap3({
                         marker: {
-                            //latLng: [40.616439, -74.035540],
                             address: location,
-                            options: {
-                                visible: false
-                            },
                             callback: function (marker) {
                                 atcenter = marker.getPosition();
                             }
@@ -39,9 +35,9 @@
                             options: {
                                 //maxZoom:11,
                                 zoom: zoom,
-                                mapTypeId: google.maps.MapTypeId.TERRAIN, // ('ROADMAP', 'SATELLITE', 'HYBRID','TERRAIN');
-                                scrollwheel: false,
-                                disableDoubleClickZoom: false,
+                                mapTypeId: google.maps.MapTypeId.ROADMAP, // ('ROADMAP', 'SATELLITE', 'HYBRID','TERRAIN');
+                                //scrollwheel: false,
+                                //disableDoubleClickZoom: false,
                                 draggable: $drag, //disableDefaultUI: true,
                                 mapTypeControlOptions: {
                                     //mapTypeIds: [google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.HYBRID],
@@ -58,43 +54,11 @@
                                 }
                             }
                         },
-                        overlay:{
-                            address:location,
-                            options:{
-                                content:
-                                "<div class='ct-googleMaps-infoBox'> \
-                                    <div class='media'>\
-                                        <div class='media-left'>\
-                                            <a href='init.js#'>\
-                                                <img class='media-object' src='http://houses.html.themeplayers.net/country/assets/js/gmaps/assets/images/demo-content/country-googlemap-item.jpg' alt='Google Map Result'>\
-                                            </a>\
-                                        </div>\
-                                        <div class='media-body'>\
-                                            <h4 class='media-heading'>Warszawa</h4>\
-                                            <address>\
-                                                ul. Witkowskiego Andrzeja 119 <br>\
-                                                02-983 Warszawa \
-                                            </address>\
-                                            <ul class='list-unstyled'>\
-                                                <li><i class='fa fa-fw fa-clock-o'></i> Mon-Sat: 8:00am - 7:00pm</li>\
-                                                <li><i class='fa fa-fw fa-phone'></i> Tel: (012) 345-6789</li>\
-                                                <li><i class='fa fa-fw fa-envelope'></i> Mail: support@createit.pl</li>\
-                                            </ul>\
-                                        </div>\
-                                    </div>\
-                                </div>",
-                                offset:{
-                                    y:-220,
-                                    x:-178
-                                }
-                            }
-                        }
                         //},"autofit"
                     });
 
                     // center on resize
                     google.maps.event.addDomListener(window, "resize", function () {
-                        //var userLocation = new google.maps.LatLng(53.8018,-1.553);
                         setTimeout(function () {
                             $this.gmap3('get').setCenter(atcenter);
                             $this.gmap3('get').panBy(0, offset);

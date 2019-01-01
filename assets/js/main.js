@@ -66,7 +66,7 @@ function parseBoolean(str, $defaultValue) {
                     $("#ct-js-weather").html('<p>'+error+'</p>');
                 }
             });
-        }
+        }        
 
 
 
@@ -262,7 +262,7 @@ function parseBoolean(str, $defaultValue) {
             $('html,body').animate({scrollTop: $(id).offset().top - 70}, 1000);
         }
         $('body .ct-js-btnScroll').on("click",function () {
-            goToByScroll('#' + $(this).attr('href').split('#')[1]);
+            goToByScroll($(this).attr('href'));
             return false;
         });
 

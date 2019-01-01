@@ -305,7 +305,7 @@
 
 
       if(settings.pagination == true) {
-        paginationList += "<li><a data-index='"+(i+1)+"' href='jquery.onepage-scroll.js#" + (i+1) + "'></a></li>"
+        paginationList += "<li><a data-index='"+(i+1)+"' href='#" + (i+1) + "'></a></li>"
       }
     });
 
