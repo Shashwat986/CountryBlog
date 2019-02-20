@@ -6388,7 +6388,8 @@ nav.navbar ul.nav.navbar-nav > li:not(:first-child):after {
   left: 0;
   top: 50%;
   margin-top: -18px;
-  background: url("../images/content/country-menu-separator.png") no-repeat;
+  border-left: 1px solid #75938e;
+  // background: url("../images/content/country-menu-separator.png") no-repeat;
 }
 nav.navbar ul.nav.navbar-nav > li.dropdown > a {
   position: relative;
@@ -6553,7 +6554,7 @@ nav.navbar ul.nav.navbar-nav a {
 
   text-align: center;
   text-transform: uppercase;
-  color: rgb(98,128,128);
+  color: rgb(117,147,142);
   font-family: "Open Sans Condensed";
   font-weight: 700;
 }
@@ -7371,7 +7372,7 @@ ul.ct-socials > li > a:hover {
   background-color: #1a1a1a !important;
 }
 nav.navbar {
-  background-color: #1a1a1a;
+  background-color: #224442;
 }
 nav.navbar ul.nav.navbar-nav > li.dropdown > a + ul.dropdown-menu > li:hover {
   background: #1a1a1a;
@@ -7380,10 +7381,10 @@ nav.navbar ul.nav.navbar-nav > li.dropdown > a + ul.dropdown-menu > li.dropdown-
   background: #1a1a1a;
 }
 nav.navbar ul.nav.navbar-nav:before {
-  border-color: transparent transparent #1a1a1a transparent;
+  border-color: transparent transparent #224442 transparent;
 }
 .navbar-scroll-top.ct-menu {
-  background-color: #1a1a1a;
+  background-color: #224442;
 }
 .owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-prev:hover,
 .owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-next:hover {
