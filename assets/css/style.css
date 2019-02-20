@@ -6181,13 +6181,12 @@ video {
   color: #000;
 }
 .ct-navbarMobile .navbar-brand {
-  height: 100px;
+  height: 135px;
   padding: 0 15px;
 }
 .ct-navbarMobile .navbar-brand .ct-logo {
   position: absolute;
   display: inline-block;
-  margin-top: 15px;
   left: 0;
   right: 0;
   text-align: center;
