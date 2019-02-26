@@ -7371,7 +7371,7 @@ ul.ct-socials > li > a:hover {
   background-color: #1a1a1a !important;
 }
 nav.navbar {
-  background-color: #224442;
+  background-color: #5c7a69;
 }
 nav.navbar ul.nav.navbar-nav > li.dropdown > a + ul.dropdown-menu > li:hover {
   background: #1a1a1a;
@@ -7380,10 +7380,10 @@ nav.navbar ul.nav.navbar-nav > li.dropdown > a + ul.dropdown-menu > li.dropdown-
   background: #1a1a1a;
 }
 nav.navbar ul.nav.navbar-nav:before {
-  border-color: transparent transparent #224442 transparent;
+  border-color: transparent transparent #5c7a69 transparent;
 }
 .navbar-scroll-top.ct-menu {
-  background-color: #224442;
+  background-color: #5c7a69;
 }
 .owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-prev:hover,
 .owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-next:hover {
