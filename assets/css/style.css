@@ -6204,7 +6204,7 @@ video {
   overflow: scroll;
 }
 .ct-menuMobile {
-  background: #222222;
+  background: #5c7a69;
   position: fixed;
   top: 0;
   right: 0;
@@ -6293,7 +6293,7 @@ header {
   top: -4px;
   width: 4px;
   height: 55px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(92, 122, 105, 0.3);
 }
 .ct-contact:before {
   content: "";
@@ -6302,7 +6302,7 @@ header {
   top: -4px;
   width: 100%;
   height: 4px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(92, 122, 105, 0.3);
 }
 .ct-contact .ct-contact-right {
   color: #fff;
@@ -6330,7 +6330,7 @@ header {
   bottom: 100%;
   width: 75px;
   height: 4px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(92, 122, 105, 0.3);
 }
 nav.navbar {
   margin: 0;
@@ -6342,9 +6342,9 @@ nav.navbar ul.nav.navbar-nav {
   position: relative;
   z-index: 2000;
   padding: 0 21px 0 0;
-  -webkit-box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.3);
-  box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 4px 4px 0 rgba(92, 122, 105, 0.3);
+  -moz-box-shadow: 4px 4px 0 rgba(92, 122, 105, 0.3);
+  box-shadow: 4px 4px 0 rgba(92, 122, 105, 0.3);
 }
 nav.navbar ul.nav.navbar-nav:before {
   content: "";
@@ -6363,7 +6363,7 @@ nav.navbar ul.nav.navbar-nav:after {
   top: 100%;
   width: 81px;
   height: 4px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(92, 122, 105, 0.3);
 }
 nav.navbar ul.nav.navbar-nav > li > a {
   position: relative;
@@ -6553,7 +6553,7 @@ nav.navbar ul.nav.navbar-nav a {
 
   text-align: center;
   text-transform: uppercase;
-  color: rgb(117,147,142);
+  color: #75938e;
   font-family: "Open Sans Condensed";
   font-weight: 700;
 }
@@ -6746,9 +6746,9 @@ nav.navbar ul.nav.navbar-nav a {
   display: none;
 }
 .navbar-scroll-top.ct-menu {
-  -webkit-box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.3);
-  box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 4px 4px 0 rgba(92, 122, 105, 0.3);
+  -moz-box-shadow: 4px 4px 0 rgba(92, 122, 105, 0.3);
+  box-shadow: 4px 4px 0 rgba(92, 122, 105, 0.3);
 }
 .navbar-scroll-top.ct-menu .ct-contact {
   display: none;
@@ -6790,7 +6790,7 @@ ul.ct-socials {
   margin: 0;
   padding: 0 13px;
   min-height: 51px;
-  background: #28282e;
+  background: #374a3f;
   display: inline-block;
 }
 ul.ct-socials > li {
@@ -7443,13 +7443,13 @@ nav.navbar ul.nav.navbar-nav:before {
 }
 .ct-navbarMobile .navbar-toggle,
 .ct-menuMobile {
-  background: #1a1a1a;
+  background: #5c7a69;
 }
 .ct-contact .ct-contact-right {
-  background-color: #323332;
+  background-color: #3f5348;
 }
 .ct-contact .ct-contact-right:after {
-  border-color: #323332 transparent transparent transparent;
+  border-color: #3f5348 transparent transparent transparent;
 }
 nav.navbar ul.nav.navbar-nav > li > span {
   background-color: #323332;
