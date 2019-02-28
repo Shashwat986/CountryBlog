@@ -5070,6 +5070,12 @@ hr.hr-dotted {
 .ct-u-paddingTop40 {
   padding-top: 40px;
 }
+.ct-u-paddingLeft10 {
+  padding-left: 10px;
+}
+.ct-u-paddingRight10 {
+  padding-right: 10px;
+}
 .ct-u-paddingRight45 {
   padding-right: 45px;
 }
