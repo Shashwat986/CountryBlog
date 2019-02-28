@@ -1,5 +1,4 @@
 (function ($) {
-    "use strict";
 
     /* ============================================= */
     /* ==== GOOGLE MAP ==== */
@@ -9,8 +8,6 @@
             $('.ct-js-googleMap').each(function () {
                 var atcenter = "";
                 var $this = $(this);
-                var location = $this.data("location");
-                var zoom = $this.data("zoom");
 
                 var offset = -30;
 
@@ -24,17 +21,35 @@
                     $drag = false;
                 }
 
-                if (validatedata(location)) {
+                function evts(idx) {
+                  path = 'https://www.google.com/maps/dir/?api=1&destination=' + [
+                    '19.02671,73.418124',
+                    '18.742062,73.410793',
+                    '18.752072,73.443965',
+                    '18.6859820,73.4420090'
+                  ][idx]
+                  return {
+                    click: function () {
+                      window.open(path);
+                    }
+                  }
+                }
+
+                if (true) {
                     $this.gmap3({
                         marker: {
-                            address: location,
-                            callback: function (marker) {
-                                atcenter = marker.getPosition();
-                            }
-                        }, map: {
+                          values: [
+                            { address: "19.02671,73.418124", events: evts(0) },
+                            { address: "18.742062,73.410793", events: evts(1) },
+                            { address: "18.752072,73.443965", events: evts(2) },
+                            { address: "18.6859820,73.4420090", events: evts(3) },
+                          ]
+                        },
+                        map: {
                             options: {
                                 //maxZoom:11,
-                                zoom: zoom,
+                                zoom: 10,
+                                center:[18.77,73.43],
                                 mapTypeId: google.maps.MapTypeId.ROADMAP, // ('ROADMAP', 'SATELLITE', 'HYBRID','TERRAIN');
                                 //scrollwheel: false,
                                 //disableDoubleClickZoom: false,
