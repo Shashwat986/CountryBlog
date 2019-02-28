@@ -87,6 +87,14 @@
   margin-left: .3em;
 }
 /* Deprecated as of 4.4.0 */
+img.responsive {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+img.fixed-size-img {
+  height: 240px;
+  width: 360px;
+}
 .pull-right {
   float: right;
 }
@@ -7402,7 +7410,7 @@ nav.navbar ul.nav.navbar-nav:before {
   background-color: #1a1a1a;
 }
 .btn-primary {
-  background-color: #1a1a1a;
+  background-color: #5c7a69;
 }
 .btn-primary:hover,
 .btn-primary:active,
